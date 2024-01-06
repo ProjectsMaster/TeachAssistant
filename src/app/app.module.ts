@@ -8,6 +8,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { AuthComponent } from './auth/auth.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -17,6 +18,7 @@ import { TestsComponent } from './tests/tests.component';
 import { AdminComponent } from './admin/admin.component';
 import { LessonViewComponent } from './lesson-view/lesson-view.component';
 import { TestViewComponent } from './test-view/test-view.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { TestViewComponent } from './test-view/test-view.component';
     TestsComponent,
     AdminComponent,
     LessonViewComponent,
-    TestViewComponent
+    TestViewComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
