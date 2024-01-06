@@ -9,11 +9,27 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthComponent } from './auth/auth.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavComponent } from './nav/nav.component';
+import { LessonsComponent } from './lessons/lessons.component';
+import { TestsComponent } from './tests/tests.component';
+import { AdminComponent } from './admin/admin.component';
+import { LessonViewComponent } from './lesson-view/lesson-view.component';
+import { TestViewComponent } from './test-view/test-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthComponent
+    AuthComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
+    LessonsComponent,
+    TestsComponent,
+    AdminComponent,
+    LessonViewComponent,
+    TestViewComponent
   ],
   imports: [
     BrowserModule,
